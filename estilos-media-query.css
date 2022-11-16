@@ -8,6 +8,7 @@
     
     section#login {
         width: 70vw;
+        height: 400px;
     }
 
     section#login > div#imagem {
@@ -22,8 +23,17 @@
     }
 
     section#login > div#formulário > p {
-        padding-top: 100px;
+        padding-top: 60px;
     }
+
+    div#formulário > h1 {
+        font-size: 1.4em;
+    }
+
+    div#formulário > p {
+        font-size: 1.1em;
+    }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -34,6 +44,7 @@
 
     section#login {
         width: 900px;
+        height: 500px;
     }
 
     section#login > div#imagem {
@@ -48,7 +59,7 @@
     }
 
     section#login > div#formulário > p {
-        padding-top: 100px;
+        padding-top: 80px;
     }
 
     div#formulário > h1 {
